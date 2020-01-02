@@ -19,7 +19,7 @@ class InterfaceController: WKInterfaceController {
     
     @IBAction func tappedRestaurant(_ sender: Any) {
         
-        print("Restaurant")
+        pushController(withName: "TableController", context: "restaurant")
     }
     
     override func willActivate() {

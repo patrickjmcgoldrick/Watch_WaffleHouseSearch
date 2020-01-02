@@ -6,14 +6,14 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="15501"/>
     </dependencies>
     <scenes>
-        <!--Table Interface Controller-->
+        <!--TableController-->
         <scene sceneID="DXq-ao-zOf">
             <objects>
-                <controller id="TpD-AH-L0R" customClass="TableInterfaceController" customModule="Watch_WaffleHouseSearch_WatchKit_Extension">
+                <controller identifier="TableController" id="TpD-AH-L0R" customClass="TableInterfaceController" customModule="Watch_WaffleHouseSearch_WatchKit_Extension">
                     <items>
                         <table alignment="left" id="iYW-NN-nhk">
                             <items>
-                                <tableRow id="Z0v-2e-EIC">
+                                <tableRow identifier="RowCell" id="Z0v-2e-EIC" customClass="TableRowCell" customModule="Watch_WaffleHouseSearch_WatchKit_Extension">
                                     <group key="rootItem" width="1" height="1" alignment="left" layout="vertical" id="t4z-AZ-3D3">
                                         <items>
                                             <imageView width="1" height="80" alignment="left" image="food" id="DZd-a8-8d2"/>
@@ -44,6 +44,13 @@
                                             </group>
                                         </items>
                                     </group>
+                                    <connections>
+                                        <outlet property="grpStars" destination="oat-ZU-vJA" id="6Y8-kj-HPF"/>
+                                        <outlet property="image" destination="DZd-a8-8d2" id="QNT-AU-CAY"/>
+                                        <outlet property="lblDetails" destination="tBf-zz-Ell" id="JIn-a9-Wuc"/>
+                                        <outlet property="lblDistance" destination="F2G-ZS-9b5" id="5Lw-1o-teQ"/>
+                                        <outlet property="lblName" destination="Dos-sb-ZRB" id="f9l-cd-xT1"/>
+                                    </connections>
                                 </tableRow>
                             </items>
                         </table>
@@ -52,10 +59,10 @@
             </objects>
             <point key="canvasLocation" x="316" y="-129.5"/>
         </scene>
-        <!--Detail Interface Controller-->
+        <!--DetailController-->
         <scene sceneID="hvL-pf-HkD">
             <objects>
-                <controller id="Uec-mb-T4D" customClass="DetailInterfaceController" customModule="Watch_WaffleHouseSearch_WatchKit_Extension"/>
+                <controller identifier="DetailController" id="Uec-mb-T4D" customClass="DetailInterfaceController" customModule="Watch_WaffleHouseSearch_WatchKit_Extension"/>
             </objects>
             <point key="canvasLocation" x="572" y="-129"/>
         </scene>
