@@ -6,7 +6,8 @@
 //  Copyright © 2020 dirtbag. All rights reserved.
 //
 
-import UIKit
+import WatchKit
+import Foundation
 
 class DetailInterfaceController: WKInterfaceController {
 

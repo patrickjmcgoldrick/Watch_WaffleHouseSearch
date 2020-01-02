@@ -9,13 +9,17 @@
 import WatchKit
 import Foundation
 
-
 class InterfaceController: WKInterfaceController {
-
+    
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
         // Configure interface objects here.
+    }
+    
+    @IBAction func tappedRestaurant(_ sender: Any) {
+        
+        print("Restaurant")
     }
     
     override func willActivate() {
