@@ -16,9 +16,8 @@
                                 <tableRow identifier="RowCell" id="Z0v-2e-EIC" customClass="TableRowCell" customModule="Watch_WaffleHouseSearch_WatchKit_Extension">
                                     <group key="rootItem" width="1" height="1" alignment="left" layout="vertical" id="t4z-AZ-3D3">
                                         <items>
-                                            <imageView width="1" height="80" alignment="left" image="food" id="DZd-a8-8d2"/>
+                                            <imageView width="1" height="100" alignment="left" image="food" contentMode="scaleAspectFill" id="DZd-a8-8d2"/>
                                             <label width="1" alignment="left" text="Restaurant" id="Dos-sb-ZRB">
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
                                             </label>
                                             <group width="1" alignment="left" id="oat-ZU-vJA">
@@ -55,16 +54,80 @@
                             </items>
                         </table>
                     </items>
+                    <connections>
+                        <outlet property="table" destination="iYW-NN-nhk" id="Gen-ej-ksI"/>
+                    </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="316" y="-129.5"/>
+            <point key="canvasLocation" x="329" y="-94"/>
         </scene>
         <!--DetailController-->
         <scene sceneID="hvL-pf-HkD">
             <objects>
-                <controller identifier="DetailController" id="Uec-mb-T4D" customClass="DetailInterfaceController" customModule="Watch_WaffleHouseSearch_WatchKit_Extension"/>
+                <controller identifier="DetailController" id="Uec-mb-T4D" customClass="DetailInterfaceController" customModule="Watch_WaffleHouseSearch_WatchKit_Extension">
+                    <items>
+                        <imageView height="78" alignment="left" image="food" id="iL1-Y4-bS2">
+                            <gestureRecognizers>
+                                <swipeGestureRecognizer direction="2" id="2u0-r7-agy">
+                                    <connections>
+                                        <action selector="actionSwipe:" destination="Uec-mb-T4D" id="wTX-qq-o1Q"/>
+                                    </connections>
+                                </swipeGestureRecognizer>
+                            </gestureRecognizers>
+                        </imageView>
+                        <label alignment="left" text="Restaurant" id="tan-KD-H0X"/>
+                        <group width="1" alignment="left" id="xit-Vn-AY2">
+                            <items>
+                                <imageView width="15" height="15" alignment="left" image="star" id="Cvr-2k-nea"/>
+                                <imageView width="15" height="15" alignment="left" image="star" id="I87-zR-dL9"/>
+                                <imageView width="15" height="15" alignment="left" image="star" id="b1j-uk-AiM"/>
+                                <imageView width="15" height="15" alignment="left" image="star" id="Kzy-8B-9fZ"/>
+                                <imageView width="15" height="15" alignment="left" image="star" id="zFq-HF-9sG"/>
+                            </items>
+                        </group>
+                        <label alignment="left" text="$$ XXX" id="Rtp-3o-7Z4">
+                            <color key="textColor" white="0.94956656678082196" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                        </label>
+                        <label alignment="left" text="Hours Today" id="wpK-h4-pw6">
+                            <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                        </label>
+                        <label alignment="left" text="10:00 AM - 3:00 PM" numberOfLines="2" id="n9P-Xj-AZp">
+                            <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="image" destination="iL1-Y4-bS2" id="yCd-rM-u9N"/>
+                        <outlet property="lblDetails" destination="Rtp-3o-7Z4" id="Usx-nX-5oY"/>
+                        <outlet property="lblHours" destination="n9P-Xj-AZp" id="mND-84-kqy"/>
+                        <outlet property="lblIsOpenStatus" destination="wpK-h4-pw6" id="SnC-Ll-Z3j"/>
+                        <outlet property="lblName" destination="tan-KD-H0X" id="Ot1-eC-hl1"/>
+                        <outlet property="star0" destination="Cvr-2k-nea" id="qF8-j4-6gK"/>
+                        <outlet property="star1" destination="I87-zR-dL9" id="hz3-mY-JQg"/>
+                        <outlet property="star2" destination="b1j-uk-AiM" id="h06-5w-jbM"/>
+                        <outlet property="star3" destination="Kzy-8B-9fZ" id="kzq-of-0r1"/>
+                        <outlet property="star4" destination="zFq-HF-9sG" id="hj0-fc-XRf"/>
+                    </connections>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="572" y="-129"/>
+            <point key="canvasLocation" x="615" y="-87"/>
+        </scene>
+        <!--MapController-->
+        <scene sceneID="jxl-T6-kFb">
+            <objects>
+                <controller identifier="MapController" id="xm0-FX-WVo" customClass="MapInterfaceController" customModule="Watch_WaffleHouseSearch_WatchKit_Extension">
+                    <items>
+                        <map height="100" alignment="left" id="zHD-KL-nIn"/>
+                        <label alignment="left" text="Label" id="ncz-nx-ZQL"/>
+                    </items>
+                    <connections>
+                        <outlet property="mkMap" destination="zHD-KL-nIn" id="5aV-9P-ei6"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="892" y="-135"/>
         </scene>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
