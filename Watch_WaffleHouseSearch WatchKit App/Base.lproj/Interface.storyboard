@@ -120,7 +120,9 @@
                 <controller identifier="MapController" id="xm0-FX-WVo" customClass="MapInterfaceController" customModule="Watch_WaffleHouseSearch_WatchKit_Extension">
                     <items>
                         <map height="100" alignment="left" id="zHD-KL-nIn"/>
-                        <label alignment="left" text="Address" id="ncz-nx-ZQL"/>
+                        <label alignment="left" text="Address" id="ncz-nx-ZQL">
+                            <fontDescription key="font" style="UICTFontTextStyleCaption1"/>
+                        </label>
                     </items>
                     <connections>
                         <outlet property="lblAddress" destination="ncz-nx-ZQL" id="pDw-vy-enP"/>
