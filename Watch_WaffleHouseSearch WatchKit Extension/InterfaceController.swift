@@ -22,6 +22,21 @@ class InterfaceController: WKInterfaceController {
         pushController(withName: "TableController", context: "restaurant")
     }
     
+    @IBAction func tappedBar(_ sender: Any) {
+        pushController(withName: "TableController", context: "bar")
+
+    }
+    
+    @IBAction func tappedTeaCoffee(_ sender: Any) {
+        pushController(withName: "TableController", context: "tea coffee")
+
+    }
+    
+    @IBAction func tappedSearch(_ sender: Any) {
+        pushController(withName: "SearchController", context: nil)
+
+    }
+    
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()

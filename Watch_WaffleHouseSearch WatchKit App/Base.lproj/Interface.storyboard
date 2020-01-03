@@ -130,7 +130,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="892" y="-135"/>
+            <point key="canvasLocation" x="892" y="-103"/>
         </scene>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
@@ -141,19 +141,18 @@
                             <items>
                                 <group alignment="left" layout="vertical" id="28y-hc-gdj">
                                     <items>
-                                        <imageView width="48" height="48" alignment="center" image="plate" id="r9S-59-nRn">
-                                            <gestureRecognizers>
-                                                <tapGestureRecognizer id="wMe-wd-hRG">
-                                                    <connections>
-                                                        <action selector="tappedRestaurant:" destination="AgC-eL-Hgc" id="qbm-eI-h6d"/>
-                                                    </connections>
-                                                </tapGestureRecognizer>
-                                            </gestureRecognizers>
-                                        </imageView>
+                                        <imageView width="48" height="48" alignment="center" image="plate" id="r9S-59-nRn"/>
                                         <label alignment="center" text="Restaurant" id="mwE-me-GsY">
                                             <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
                                         </label>
                                     </items>
+                                    <gestureRecognizers>
+                                        <tapGestureRecognizer id="wMe-wd-hRG">
+                                            <connections>
+                                                <action selector="tappedRestaurant:" destination="AgC-eL-Hgc" id="qbm-eI-h6d"/>
+                                            </connections>
+                                        </tapGestureRecognizer>
+                                    </gestureRecognizers>
                                 </group>
                                 <group alignment="right" layout="vertical" id="smV-Lu-haj">
                                     <items>
@@ -162,6 +161,13 @@
                                             <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
                                         </label>
                                     </items>
+                                    <gestureRecognizers>
+                                        <tapGestureRecognizer id="Nhe-5p-eI5">
+                                            <connections>
+                                                <action selector="tappedBar:" destination="AgC-eL-Hgc" id="BC2-Dg-4wf"/>
+                                            </connections>
+                                        </tapGestureRecognizer>
+                                    </gestureRecognizers>
                                 </group>
                             </items>
                         </group>
@@ -174,6 +180,13 @@
                                             <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
                                         </label>
                                     </items>
+                                    <gestureRecognizers>
+                                        <tapGestureRecognizer id="in9-xY-VrE">
+                                            <connections>
+                                                <action selector="tappedTeaCoffee:" destination="AgC-eL-Hgc" id="61G-Ex-FAR"/>
+                                            </connections>
+                                        </tapGestureRecognizer>
+                                    </gestureRecognizers>
                                 </group>
                                 <group alignment="right" layout="vertical" id="UAC-ph-CGs">
                                     <items>
@@ -182,6 +195,13 @@
                                             <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
                                         </label>
                                     </items>
+                                    <gestureRecognizers>
+                                        <tapGestureRecognizer id="Bzu-Kg-U4o">
+                                            <connections>
+                                                <action selector="tappedSearch:" destination="AgC-eL-Hgc" id="nRy-W0-AZe"/>
+                                            </connections>
+                                        </tapGestureRecognizer>
+                                    </gestureRecognizers>
                                 </group>
                             </items>
                         </group>
@@ -213,6 +233,21 @@
                 <controller id="4sK-HA-Art" customClass="NotificationController" customModule="Watch_WaffleHouseSearch_WatchKit_App" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+        <!--SearchController-->
+        <scene sceneID="7hM-0G-ZXr">
+            <objects>
+                <controller identifier="SearchController" id="Yfc-se-RkC" customClass="SearchInterfaceController" customModule="Watch_WaffleHouseSearch_WatchKit_Extension">
+                    <items>
+                        <textField width="1" alignment="center" verticalAlignment="center" placeholder="Search" id="58H-5P-uSO">
+                            <connections>
+                                <action selector="actionSearch:" destination="Yfc-se-RkC" id="MW4-MN-4Go"/>
+                            </connections>
+                        </textField>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="174" y="206"/>
         </scene>
         <!--Notification Controller-->
         <scene sceneID="Niz-AI-uX2">

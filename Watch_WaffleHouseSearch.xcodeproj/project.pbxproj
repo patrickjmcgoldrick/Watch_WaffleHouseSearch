@@ -23,6 +23,7 @@
 		5E0847DD23BE67DB00B2934F /* TableRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0847DC23BE67DB00B2934F /* TableRowCell.swift */; };
 		5E7E570F23BF3E3D001B2DD4 /* MapInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7E570E23BF3E3D001B2DD4 /* MapInterfaceController.swift */; };
 		5EB7A5DF23BF570C00AEDFCF /* Business_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB7A5DE23BF570C00AEDFCF /* Business_Extension.swift */; };
+		5EFFA50523BF8242002B103E /* SearchInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFFA50423BF8242002B103E /* SearchInterfaceController.swift */; };
 		6D56427187869D200E1EE512 /* Pods_Watch_WaffleHouseSearch_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7D60518650929595F99A6F /* Pods_Watch_WaffleHouseSearch_WatchKit_Extension.framework */; };
 		807E2A5C1BDFAEC498201F15 /* Pods_Watch_WaffleHouseSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC67615D92ED1F7DAF5925B /* Pods_Watch_WaffleHouseSearch.framework */; };
 /* End PBXBuildFile section */
@@ -95,6 +96,7 @@
 		5E0847DC23BE67DB00B2934F /* TableRowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableRowCell.swift; sourceTree = "<group>"; };
 		5E7E570E23BF3E3D001B2DD4 /* MapInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInterfaceController.swift; sourceTree = "<group>"; };
 		5EB7A5DE23BF570C00AEDFCF /* Business_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business_Extension.swift; sourceTree = "<group>"; };
+		5EFFA50423BF8242002B103E /* SearchInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInterfaceController.swift; sourceTree = "<group>"; };
 		897AB7746D4510A93E5447B2 /* Pods-Watch_WaffleHouseSearch WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watch_WaffleHouseSearch WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-Watch_WaffleHouseSearch WatchKit Extension/Pods-Watch_WaffleHouseSearch WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
 		A8B0A8ED2D9FF501617F5733 /* Pods_Watch_WaffleHouseSearch_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Watch_WaffleHouseSearch_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3C52D02CF2BD2DD4A2A6645 /* Pods-Watch_WaffleHouseSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watch_WaffleHouseSearch.release.xcconfig"; path = "Target Support Files/Pods-Watch_WaffleHouseSearch/Pods-Watch_WaffleHouseSearch.release.xcconfig"; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				5E0847A923BDB73600B2934F /* InterfaceController.swift */,
+				5EFFA50423BF8242002B103E /* SearchInterfaceController.swift */,
 				5E0847CC23BDCF2300B2934F /* TableInterfaceController.swift */,
 				5E0847DC23BE67DB00B2934F /* TableRowCell.swift */,
 				5E0847CE23BDCF3B00B2934F /* DetailInterfaceController.swift */,
@@ -421,6 +424,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EFFA50523BF8242002B103E /* SearchInterfaceController.swift in Sources */,
 				5E0847CD23BDCF2300B2934F /* TableInterfaceController.swift in Sources */,
 				5E0847AE23BDB73600B2934F /* NotificationController.swift in Sources */,
 				5E0847D723BDD5F000B2934F /* WKInterfaceImage_Extension.swift in Sources */,
