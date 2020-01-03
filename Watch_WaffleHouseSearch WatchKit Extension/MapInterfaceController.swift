@@ -16,6 +16,8 @@ class MapInterfaceController: WKInterfaceController {
     
     @IBOutlet weak var mkMap: WKInterfaceMap!
         
+    @IBOutlet weak var lblAddress: WKInterfaceLabel!
+    
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
@@ -29,6 +31,7 @@ class MapInterfaceController: WKInterfaceController {
             longitudeDelta: 0.05)
         let areaRegion = MKCoordinateRegion(center: center, span: areaSpan)
 
+        lblAddress.setText(business.location.address1)
 
         mkMap.setRegion(areaRegion)
         mkMap.addAnnotation(center, with: .red)
