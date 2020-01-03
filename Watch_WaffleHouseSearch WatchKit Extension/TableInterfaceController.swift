@@ -7,6 +7,7 @@
 //
 
 import WatchKit
+import YelpHelper
 import Foundation
 
 class TableInterfaceController: WKInterfaceController {
@@ -14,7 +15,7 @@ class TableInterfaceController: WKInterfaceController {
     var searchText: String?
     var businessesFound = [Business]()
     var searchCoordinates = Coordinates(latitude: 33.9202195, longitude: -84.5348863)
-    let yelpSearcher = YelpSearcher()
+    let yelpSearcher = YelpSearcher(apiKey: YelpAPI.authorizationKey)
     
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)

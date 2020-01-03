@@ -1,0 +1,990 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10EB194F09C6A1C4C29DCC0FA11C808E /* DetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32567B60DCDB9632551C898C2F9EB4B0 /* DetailData.swift */; };
+		1D90244825716C6CBB59EAFA4C37B2CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F08ABB474347279C5B50D18B4AF9EB /* Foundation.framework */; };
+		2EE7FC35AA643D6D131476CF859E54B5 /* Pods-Watch_WaffleHouseSearch WatchKit Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFF569F17A334A1DD659A50FF5A45E3 /* Pods-Watch_WaffleHouseSearch WatchKit Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B4B52BA7D68AFD82B9C8C4CD06AB437 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F08ABB474347279C5B50D18B4AF9EB /* Foundation.framework */; };
+		5B50C5BF57CA6A779D338D20E6C946F5 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B994C02CC487C683EC01BB44DF59A8 /* NetworkController.swift */; };
+		60890EC473FBC864447284C9FEDEE7A5 /* SearchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FFFF725315A0C2CF5C5A3530148521 /* SearchData.swift */; };
+		6310212C58786A75C762EB3CC62CF94E /* DetailParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53542B059F23D78DDB8F42789443EFB8 /* DetailParser.swift */; };
+		6876C203ABE7149D0645F081EA71F8B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F08ABB474347279C5B50D18B4AF9EB /* Foundation.framework */; };
+		6A53F4DF4E45F0D1A1D466293B3944FF /* YelpHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E16ABD201749283EB6EE16A4944A681 /* YelpHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D6ED6E28B3F098FCB5F0A7CAFB3CE03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C46B27996AA6C4680E4E954CCF191C /* Foundation.framework */; };
+		81A8AC56F146B9EAB1724764E3509740 /* YelpHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF5E1832BF45A6AF920794174242D13 /* YelpHelper-dummy.m */; };
+		9826051B10D08DBD08B2B71D0B82031F /* YelpSearcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A125F00F9C73B4613120B2EDDA82B0 /* YelpSearcher.swift */; };
+		9E28817CBA6BA4B4BE4A5D7A5EE2D8D8 /* Pods-Watch_WaffleHouseSearch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB269FC4781858086BEADF797FF059C1 /* Pods-Watch_WaffleHouseSearch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E75BDCCAA3AFFCDD2B935753E2107B8 /* YelpHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84FF15D6CF1D3FEE45B4BB078606BD92 /* YelpHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A650C5E054101E446A25711D3856E138 /* Pods-Watch_WaffleHouseSearch WatchKit Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DD0BC3C5C8BFAB43B3D7F88A2EF62C /* Pods-Watch_WaffleHouseSearch WatchKit Extension-dummy.m */; };
+		BA01617BB4C0668DD58E323877F68B51 /* YelpURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDE230E2621D43596C8AFA831094569 /* YelpURLs.swift */; };
+		C0236873425F0560FC9E8DC082C64811 /* SearchParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791F4427B1A031F6D76C66EDC52FEB57 /* SearchParser.swift */; };
+		C484D08F2B9AF0C1953A0DA0A0960436 /* Pods-Watch_WaffleHouseSearch WatchKit App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B1BD3A306C8B6136C8C5C13DAD49F6 /* Pods-Watch_WaffleHouseSearch WatchKit App-dummy.m */; };
+		F030FD29E6B69FC6F877CB5129CFAC6D /* Pods-Watch_WaffleHouseSearch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E67D801C0FED9306E07DC54D500B3C /* Pods-Watch_WaffleHouseSearch-dummy.m */; };
+		F502405FCB55188101D3DAE1284935BD /* Pods-Watch_WaffleHouseSearch WatchKit App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0DD6EF419E2DFAB622960D66293D2A6 /* Pods-Watch_WaffleHouseSearch WatchKit App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DC592A55411E0F9F178BDBA5AEE61BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CF014A335F01D9FD2CE54E6CD6AE25C;
+			remoteInfo = YelpHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A125F00F9C73B4613120B2EDDA82B0 /* YelpSearcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YelpSearcher.swift; path = YelpHelper/YelpSearcher.swift; sourceTree = "<group>"; };
+		0363A0C6E5934AAFBD645664C5826103 /* YelpHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YelpHelper-prefix.pch"; sourceTree = "<group>"; };
+		0706889691FD4F6D61F63B8E56470AA5 /* YelpHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YelpHelper.modulemap; sourceTree = "<group>"; };
+		072942BE5559D2344209281DE6AD0B91 /* Pods-Watch_WaffleHouseSearch WatchKit App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Watch_WaffleHouseSearch WatchKit App-acknowledgements.plist"; sourceTree = "<group>"; };
+		08520EE1DDFC48E2D21E947E645B9624 /* Pods-Watch_WaffleHouseSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Watch_WaffleHouseSearch.release.xcconfig"; sourceTree = "<group>"; };
+		17CCC35FC0BB47B9E22EFDC1E81B6B7B /* Pods-Watch_WaffleHouseSearch WatchKit App-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Watch_WaffleHouseSearch WatchKit App-Info.plist"; sourceTree = "<group>"; };
+		20E67D801C0FED9306E07DC54D500B3C /* Pods-Watch_WaffleHouseSearch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Watch_WaffleHouseSearch-dummy.m"; sourceTree = "<group>"; };
+		24B994C02CC487C683EC01BB44DF59A8 /* NetworkController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkController.swift; path = YelpHelper/NetworkController.swift; sourceTree = "<group>"; };
+		2E16ABD201749283EB6EE16A4944A681 /* YelpHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YelpHelper.h; path = YelpHelper/YelpHelper.h; sourceTree = "<group>"; };
+		32567B60DCDB9632551C898C2F9EB4B0 /* DetailData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DetailData.swift; path = YelpHelper/DetailData.swift; sourceTree = "<group>"; };
+		32F08ABB474347279C5B50D18B4AF9EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		364FAFBDFF3A42786388793FA95CE6DA /* Pods-Watch_WaffleHouseSearch WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Watch_WaffleHouseSearch WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		3683CD5532415C80AD4699509C314982 /* YelpHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YelpHelper.xcconfig; sourceTree = "<group>"; };
+		376C1225716A5882D2749DBC350CFF0B /* Pods-Watch_WaffleHouseSearch WatchKit Extension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Watch_WaffleHouseSearch WatchKit Extension-Info.plist"; sourceTree = "<group>"; };
+		523ED83CF78F8DC1CF491B2CDFBE6AD1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		53542B059F23D78DDB8F42789443EFB8 /* DetailParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DetailParser.swift; path = YelpHelper/DetailParser.swift; sourceTree = "<group>"; };
+		53E41AAEF48DF30E6D5BC98737827153 /* Pods-Watch_WaffleHouseSearch WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Watch_WaffleHouseSearch WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		58911188AE6C74938B2E1ADE736637E0 /* YelpHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YelpHelper-Info.plist"; sourceTree = "<group>"; };
+		58C46B27996AA6C4680E4E954CCF191C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		62B1BD3A306C8B6136C8C5C13DAD49F6 /* Pods-Watch_WaffleHouseSearch WatchKit App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Watch_WaffleHouseSearch WatchKit App-dummy.m"; sourceTree = "<group>"; };
+		67A5677F0F176AB94B04C8239AEC9AB4 /* Pods_Watch_WaffleHouseSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Watch_WaffleHouseSearch.framework; path = "Pods-Watch_WaffleHouseSearch.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69AE94E62B71DA5A52DC54B00A89B40E /* Pods_Watch_WaffleHouseSearch_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Watch_WaffleHouseSearch_WatchKit_Extension.framework; path = "Pods-Watch_WaffleHouseSearch WatchKit Extension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73FFFF725315A0C2CF5C5A3530148521 /* SearchData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchData.swift; path = YelpHelper/SearchData.swift; sourceTree = "<group>"; };
+		7464BEBD6217D641269CC1D2873590A0 /* Pods-Watch_WaffleHouseSearch WatchKit App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Watch_WaffleHouseSearch WatchKit App.modulemap"; sourceTree = "<group>"; };
+		77D73D131C9E4966E0D8D4551DCEA2B6 /* Pods-Watch_WaffleHouseSearch WatchKit App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Watch_WaffleHouseSearch WatchKit App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		791F4427B1A031F6D76C66EDC52FEB57 /* SearchParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchParser.swift; path = YelpHelper/SearchParser.swift; sourceTree = "<group>"; };
+		84FF15D6CF1D3FEE45B4BB078606BD92 /* YelpHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YelpHelper-umbrella.h"; sourceTree = "<group>"; };
+		8907B0E3DC47BCC342E409335A7727B5 /* Pods_Watch_WaffleHouseSearch_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Watch_WaffleHouseSearch_WatchKit_App.framework; path = "Pods-Watch_WaffleHouseSearch WatchKit App.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF9E8B7CC4CB709B9A20DCC1369E605 /* Pods-Watch_WaffleHouseSearch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Watch_WaffleHouseSearch-Info.plist"; sourceTree = "<group>"; };
+		8FE27EC2D75374F25F7EC0E7F62E9FEA /* YelpHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YelpHelper.framework; path = YelpHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97DD0BC3C5C8BFAB43B3D7F88A2EF62C /* Pods-Watch_WaffleHouseSearch WatchKit Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Watch_WaffleHouseSearch WatchKit Extension-dummy.m"; sourceTree = "<group>"; };
+		99B6DA3B45BB51EA77385299AB57A637 /* Pods-Watch_WaffleHouseSearch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Watch_WaffleHouseSearch.modulemap"; sourceTree = "<group>"; };
+		9C471E5588E02905243F9CFB34855C6E /* Pods-Watch_WaffleHouseSearch-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Watch_WaffleHouseSearch-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A227EE1BD7CFF2C601ACF895B2330DEE /* Pods-Watch_WaffleHouseSearch WatchKit Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Watch_WaffleHouseSearch WatchKit Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AB79AA046DB0D94DD42F80CE98159CC8 /* Pods-Watch_WaffleHouseSearch WatchKit Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Watch_WaffleHouseSearch WatchKit Extension.modulemap"; sourceTree = "<group>"; };
+		B3A930FA195695685E79573EB78C6471 /* Pods-Watch_WaffleHouseSearch WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Watch_WaffleHouseSearch WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		BBFF569F17A334A1DD659A50FF5A45E3 /* Pods-Watch_WaffleHouseSearch WatchKit Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Watch_WaffleHouseSearch WatchKit Extension-umbrella.h"; sourceTree = "<group>"; };
+		BEF5E1832BF45A6AF920794174242D13 /* YelpHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YelpHelper-dummy.m"; sourceTree = "<group>"; };
+		BFDE230E2621D43596C8AFA831094569 /* YelpURLs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YelpURLs.swift; path = YelpHelper/YelpURLs.swift; sourceTree = "<group>"; };
+		C87340431316015B62A93A87D06334F8 /* Pods-Watch_WaffleHouseSearch-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Watch_WaffleHouseSearch-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBCBF0449E79238F41509A6B007ECC33 /* Pods-Watch_WaffleHouseSearch WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Watch_WaffleHouseSearch WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		D0DD6EF419E2DFAB622960D66293D2A6 /* Pods-Watch_WaffleHouseSearch WatchKit App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Watch_WaffleHouseSearch WatchKit App-umbrella.h"; sourceTree = "<group>"; };
+		E565B667DDB9DCDFF1C627B8D6036D1B /* Pods-Watch_WaffleHouseSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Watch_WaffleHouseSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		EE669E9ACD17183776E10713916C114A /* YelpHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YelpHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F3A257D16889D02BB76DC83035A300C4 /* Pods-Watch_WaffleHouseSearch WatchKit Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Watch_WaffleHouseSearch WatchKit Extension-frameworks.sh"; sourceTree = "<group>"; };
+		F6DF6A46533F723E37B8AE44E8D42E3C /* Pods-Watch_WaffleHouseSearch WatchKit Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Watch_WaffleHouseSearch WatchKit Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		FB269FC4781858086BEADF797FF059C1 /* Pods-Watch_WaffleHouseSearch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Watch_WaffleHouseSearch-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02E432728D666340C6961DA9DD450C94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6876C203ABE7149D0645F081EA71F8B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB548D3077285A20928659701FE309A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D90244825716C6CBB59EAFA4C37B2CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1165A5B6C6C6B1A188F1F30663A53E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6ED6E28B3F098FCB5F0A7CAFB3CE03 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E03D6188B759A940626E730EBFB87230 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4B52BA7D68AFD82B9C8C4CD06AB437 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		305A9022353734CED38506D72C8F9B68 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0706889691FD4F6D61F63B8E56470AA5 /* YelpHelper.modulemap */,
+				3683CD5532415C80AD4699509C314982 /* YelpHelper.xcconfig */,
+				BEF5E1832BF45A6AF920794174242D13 /* YelpHelper-dummy.m */,
+				58911188AE6C74938B2E1ADE736637E0 /* YelpHelper-Info.plist */,
+				0363A0C6E5934AAFBD645664C5826103 /* YelpHelper-prefix.pch */,
+				84FF15D6CF1D3FEE45B4BB078606BD92 /* YelpHelper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Watch_WaffleHouseSearch/Pods/Target Support Files/YelpHelper";
+			sourceTree = "<group>";
+		};
+		4157834E9FD0D1E61DDFCAF80633E0CC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8ACE39523215EC189B9EA0C546E4E6FB /* YelpHelper */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8ACE39523215EC189B9EA0C546E4E6FB /* YelpHelper */ = {
+			isa = PBXGroup;
+			children = (
+				32567B60DCDB9632551C898C2F9EB4B0 /* DetailData.swift */,
+				53542B059F23D78DDB8F42789443EFB8 /* DetailParser.swift */,
+				24B994C02CC487C683EC01BB44DF59A8 /* NetworkController.swift */,
+				73FFFF725315A0C2CF5C5A3530148521 /* SearchData.swift */,
+				791F4427B1A031F6D76C66EDC52FEB57 /* SearchParser.swift */,
+				2E16ABD201749283EB6EE16A4944A681 /* YelpHelper.h */,
+				00A125F00F9C73B4613120B2EDDA82B0 /* YelpSearcher.swift */,
+				BFDE230E2621D43596C8AFA831094569 /* YelpURLs.swift */,
+				A453D748C5450192779418EFF640741C /* Pod */,
+				305A9022353734CED38506D72C8F9B68 /* Support Files */,
+			);
+			name = YelpHelper;
+			path = ../../YelpHelper;
+			sourceTree = "<group>";
+		};
+		9A816734C89CF09E12A52DEC64963D83 /* Pods-Watch_WaffleHouseSearch */ = {
+			isa = PBXGroup;
+			children = (
+				99B6DA3B45BB51EA77385299AB57A637 /* Pods-Watch_WaffleHouseSearch.modulemap */,
+				9C471E5588E02905243F9CFB34855C6E /* Pods-Watch_WaffleHouseSearch-acknowledgements.markdown */,
+				C87340431316015B62A93A87D06334F8 /* Pods-Watch_WaffleHouseSearch-acknowledgements.plist */,
+				20E67D801C0FED9306E07DC54D500B3C /* Pods-Watch_WaffleHouseSearch-dummy.m */,
+				8CF9E8B7CC4CB709B9A20DCC1369E605 /* Pods-Watch_WaffleHouseSearch-Info.plist */,
+				FB269FC4781858086BEADF797FF059C1 /* Pods-Watch_WaffleHouseSearch-umbrella.h */,
+				E565B667DDB9DCDFF1C627B8D6036D1B /* Pods-Watch_WaffleHouseSearch.debug.xcconfig */,
+				08520EE1DDFC48E2D21E947E645B9624 /* Pods-Watch_WaffleHouseSearch.release.xcconfig */,
+			);
+			name = "Pods-Watch_WaffleHouseSearch";
+			path = "Target Support Files/Pods-Watch_WaffleHouseSearch";
+			sourceTree = "<group>";
+		};
+		A453D748C5450192779418EFF640741C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				523ED83CF78F8DC1CF491B2CDFBE6AD1 /* README.md */,
+				EE669E9ACD17183776E10713916C114A /* YelpHelper.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A82800EF37597E2FF1483192AAB9BA86 /* Pods-Watch_WaffleHouseSearch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AB79AA046DB0D94DD42F80CE98159CC8 /* Pods-Watch_WaffleHouseSearch WatchKit Extension.modulemap */,
+				A227EE1BD7CFF2C601ACF895B2330DEE /* Pods-Watch_WaffleHouseSearch WatchKit Extension-acknowledgements.markdown */,
+				F6DF6A46533F723E37B8AE44E8D42E3C /* Pods-Watch_WaffleHouseSearch WatchKit Extension-acknowledgements.plist */,
+				97DD0BC3C5C8BFAB43B3D7F88A2EF62C /* Pods-Watch_WaffleHouseSearch WatchKit Extension-dummy.m */,
+				F3A257D16889D02BB76DC83035A300C4 /* Pods-Watch_WaffleHouseSearch WatchKit Extension-frameworks.sh */,
+				376C1225716A5882D2749DBC350CFF0B /* Pods-Watch_WaffleHouseSearch WatchKit Extension-Info.plist */,
+				BBFF569F17A334A1DD659A50FF5A45E3 /* Pods-Watch_WaffleHouseSearch WatchKit Extension-umbrella.h */,
+				B3A930FA195695685E79573EB78C6471 /* Pods-Watch_WaffleHouseSearch WatchKit Extension.debug.xcconfig */,
+				53E41AAEF48DF30E6D5BC98737827153 /* Pods-Watch_WaffleHouseSearch WatchKit Extension.release.xcconfig */,
+			);
+			name = "Pods-Watch_WaffleHouseSearch WatchKit Extension";
+			path = "Target Support Files/Pods-Watch_WaffleHouseSearch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		BD3B8854D5EF30308C1BD31B80B9B29E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A816734C89CF09E12A52DEC64963D83 /* Pods-Watch_WaffleHouseSearch */,
+				EAC97FA1547B34D7D40D778F150689BE /* Pods-Watch_WaffleHouseSearch WatchKit App */,
+				A82800EF37597E2FF1483192AAB9BA86 /* Pods-Watch_WaffleHouseSearch WatchKit Extension */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4157834E9FD0D1E61DDFCAF80633E0CC /* Development Pods */,
+				FF88140A43FC06F7C26B0D02C2815335 /* Frameworks */,
+				FA03BAAC866CB0C60DBC0ECB0E0E42C0 /* Products */,
+				BD3B8854D5EF30308C1BD31B80B9B29E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E069016A8CE8F37A38A1AF9F5C2A3717 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				58C46B27996AA6C4680E4E954CCF191C /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EAC97FA1547B34D7D40D778F150689BE /* Pods-Watch_WaffleHouseSearch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				7464BEBD6217D641269CC1D2873590A0 /* Pods-Watch_WaffleHouseSearch WatchKit App.modulemap */,
+				77D73D131C9E4966E0D8D4551DCEA2B6 /* Pods-Watch_WaffleHouseSearch WatchKit App-acknowledgements.markdown */,
+				072942BE5559D2344209281DE6AD0B91 /* Pods-Watch_WaffleHouseSearch WatchKit App-acknowledgements.plist */,
+				62B1BD3A306C8B6136C8C5C13DAD49F6 /* Pods-Watch_WaffleHouseSearch WatchKit App-dummy.m */,
+				17CCC35FC0BB47B9E22EFDC1E81B6B7B /* Pods-Watch_WaffleHouseSearch WatchKit App-Info.plist */,
+				D0DD6EF419E2DFAB622960D66293D2A6 /* Pods-Watch_WaffleHouseSearch WatchKit App-umbrella.h */,
+				CBCBF0449E79238F41509A6B007ECC33 /* Pods-Watch_WaffleHouseSearch WatchKit App.debug.xcconfig */,
+				364FAFBDFF3A42786388793FA95CE6DA /* Pods-Watch_WaffleHouseSearch WatchKit App.release.xcconfig */,
+			);
+			name = "Pods-Watch_WaffleHouseSearch WatchKit App";
+			path = "Target Support Files/Pods-Watch_WaffleHouseSearch WatchKit App";
+			sourceTree = "<group>";
+		};
+		F761BE0D78C1E8D037F8C232DE3567C2 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				32F08ABB474347279C5B50D18B4AF9EB /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		FA03BAAC866CB0C60DBC0ECB0E0E42C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67A5677F0F176AB94B04C8239AEC9AB4 /* Pods_Watch_WaffleHouseSearch.framework */,
+				8907B0E3DC47BCC342E409335A7727B5 /* Pods_Watch_WaffleHouseSearch_WatchKit_App.framework */,
+				69AE94E62B71DA5A52DC54B00A89B40E /* Pods_Watch_WaffleHouseSearch_WatchKit_Extension.framework */,
+				8FE27EC2D75374F25F7EC0E7F62E9FEA /* YelpHelper.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF88140A43FC06F7C26B0D02C2815335 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E069016A8CE8F37A38A1AF9F5C2A3717 /* iOS */,
+				F761BE0D78C1E8D037F8C232DE3567C2 /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8437D666310DE2B5E7BB6E0A7118CC08 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E75BDCCAA3AFFCDD2B935753E2107B8 /* YelpHelper-umbrella.h in Headers */,
+				6A53F4DF4E45F0D1A1D466293B3944FF /* YelpHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC1DA025A4019979DE42036E0DED79A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E28817CBA6BA4B4BE4A5D7A5EE2D8D8 /* Pods-Watch_WaffleHouseSearch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2C0F4B9239BC22724E96AC42B8FD4C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F502405FCB55188101D3DAE1284935BD /* Pods-Watch_WaffleHouseSearch WatchKit App-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7BCF609394263B7CDB06D997EE82C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE7FC35AA643D6D131476CF859E54B5 /* Pods-Watch_WaffleHouseSearch WatchKit Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2CF014A335F01D9FD2CE54E6CD6AE25C /* YelpHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF93684D2474837EDBC390C32D986344 /* Build configuration list for PBXNativeTarget "YelpHelper" */;
+			buildPhases = (
+				8437D666310DE2B5E7BB6E0A7118CC08 /* Headers */,
+				46D5C244C7F59C3F988559349CF899F3 /* Sources */,
+				02E432728D666340C6961DA9DD450C94 /* Frameworks */,
+				6D43520CE20443E289CBF5E6ADEB2A57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YelpHelper;
+			productName = YelpHelper;
+			productReference = 8FE27EC2D75374F25F7EC0E7F62E9FEA /* YelpHelper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD70D75C64E92188FA3B9A5EC57116E6 /* Pods-Watch_WaffleHouseSearch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F9CE747CFDCBFA21CF4838DCAA6263 /* Build configuration list for PBXNativeTarget "Pods-Watch_WaffleHouseSearch WatchKit App" */;
+			buildPhases = (
+				C2C0F4B9239BC22724E96AC42B8FD4C8 /* Headers */,
+				42C2D265E232B722CCCCF0F19CC205DF /* Sources */,
+				4CB548D3077285A20928659701FE309A /* Frameworks */,
+				822854380313AE82028A1277064429DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Watch_WaffleHouseSearch WatchKit App";
+			productName = "Pods-Watch_WaffleHouseSearch WatchKit App";
+			productReference = 8907B0E3DC47BCC342E409335A7727B5 /* Pods_Watch_WaffleHouseSearch_WatchKit_App.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EBEDE1D5D91AE9460B93790BB07F9425 /* Pods-Watch_WaffleHouseSearch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A490BEDC38FAA3B3F4443A728E438E /* Build configuration list for PBXNativeTarget "Pods-Watch_WaffleHouseSearch WatchKit Extension" */;
+			buildPhases = (
+				EB7BCF609394263B7CDB06D997EE82C2 /* Headers */,
+				98DAA759AB2DE439CD709E1E008CDF68 /* Sources */,
+				E03D6188B759A940626E730EBFB87230 /* Frameworks */,
+				45FAB6B0FC087121407B22B00A730C09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74A0F6900C9A52404081FC51415B33CE /* PBXTargetDependency */,
+			);
+			name = "Pods-Watch_WaffleHouseSearch WatchKit Extension";
+			productName = "Pods-Watch_WaffleHouseSearch WatchKit Extension";
+			productReference = 69AE94E62B71DA5A52DC54B00A89B40E /* Pods_Watch_WaffleHouseSearch_WatchKit_Extension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FBEFC70F816EB7AEE13C9621E207B8E1 /* Pods-Watch_WaffleHouseSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE18970914795B7FD12D01C6B0E17BC0 /* Build configuration list for PBXNativeTarget "Pods-Watch_WaffleHouseSearch" */;
+			buildPhases = (
+				9BC1DA025A4019979DE42036E0DED79A /* Headers */,
+				A1FFAFBEB3DDB7EF5E08B9C302582998 /* Sources */,
+				D1165A5B6C6C6B1A188F1F30663A53E9 /* Frameworks */,
+				EFFE1188A9755D86D72B871C5BE31C8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Watch_WaffleHouseSearch";
+			productName = "Pods-Watch_WaffleHouseSearch";
+			productReference = 67A5677F0F176AB94B04C8239AEC9AB4 /* Pods_Watch_WaffleHouseSearch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FA03BAAC866CB0C60DBC0ECB0E0E42C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBEFC70F816EB7AEE13C9621E207B8E1 /* Pods-Watch_WaffleHouseSearch */,
+				BD70D75C64E92188FA3B9A5EC57116E6 /* Pods-Watch_WaffleHouseSearch WatchKit App */,
+				EBEDE1D5D91AE9460B93790BB07F9425 /* Pods-Watch_WaffleHouseSearch WatchKit Extension */,
+				2CF014A335F01D9FD2CE54E6CD6AE25C /* YelpHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45FAB6B0FC087121407B22B00A730C09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D43520CE20443E289CBF5E6ADEB2A57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822854380313AE82028A1277064429DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFFE1188A9755D86D72B871C5BE31C8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42C2D265E232B722CCCCF0F19CC205DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C484D08F2B9AF0C1953A0DA0A0960436 /* Pods-Watch_WaffleHouseSearch WatchKit App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D5C244C7F59C3F988559349CF899F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10EB194F09C6A1C4C29DCC0FA11C808E /* DetailData.swift in Sources */,
+				6310212C58786A75C762EB3CC62CF94E /* DetailParser.swift in Sources */,
+				5B50C5BF57CA6A779D338D20E6C946F5 /* NetworkController.swift in Sources */,
+				60890EC473FBC864447284C9FEDEE7A5 /* SearchData.swift in Sources */,
+				C0236873425F0560FC9E8DC082C64811 /* SearchParser.swift in Sources */,
+				81A8AC56F146B9EAB1724764E3509740 /* YelpHelper-dummy.m in Sources */,
+				9826051B10D08DBD08B2B71D0B82031F /* YelpSearcher.swift in Sources */,
+				BA01617BB4C0668DD58E323877F68B51 /* YelpURLs.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98DAA759AB2DE439CD709E1E008CDF68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A650C5E054101E446A25711D3856E138 /* Pods-Watch_WaffleHouseSearch WatchKit Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1FFAFBEB3DDB7EF5E08B9C302582998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F030FD29E6B69FC6F877CB5129CFAC6D /* Pods-Watch_WaffleHouseSearch-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74A0F6900C9A52404081FC51415B33CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YelpHelper;
+			target = 2CF014A335F01D9FD2CE54E6CD6AE25C /* YelpHelper */;
+			targetProxy = 3DC592A55411E0F9F178BDBA5AEE61BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		030C440C3B849EF8AF2749C0411600B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = "";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		2363D7F401C89653C213A5A436C69E22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBCBF0449E79238F41509A6B007ECC33 /* Pods-Watch_WaffleHouseSearch WatchKit App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Watch_WaffleHouseSearch WatchKit App/Pods-Watch_WaffleHouseSearch WatchKit App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Watch_WaffleHouseSearch WatchKit App/Pods-Watch_WaffleHouseSearch WatchKit App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		69354C4958F1C681DB36AA2BCC29C225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3A930FA195695685E79573EB78C6471 /* Pods-Watch_WaffleHouseSearch WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Watch_WaffleHouseSearch WatchKit Extension/Pods-Watch_WaffleHouseSearch WatchKit Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Watch_WaffleHouseSearch WatchKit Extension/Pods-Watch_WaffleHouseSearch WatchKit Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		7267619BF7D9A8CFA07BD13F18A5AB2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E565B667DDB9DCDFF1C627B8D6036D1B /* Pods-Watch_WaffleHouseSearch.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Watch_WaffleHouseSearch/Pods-Watch_WaffleHouseSearch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Watch_WaffleHouseSearch/Pods-Watch_WaffleHouseSearch.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		758FECFEB698B905BE4C97DA8952B050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3683CD5532415C80AD4699509C314982 /* YelpHelper.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YelpHelper/YelpHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YelpHelper/YelpHelper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YelpHelper/YelpHelper.modulemap";
+				PRODUCT_MODULE_NAME = YelpHelper;
+				PRODUCT_NAME = YelpHelper;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		7822537EEE947E5E6601FAEA8F266C40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = "";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		92F55FD0283B0910EDA6199A1A3C4F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53E41AAEF48DF30E6D5BC98737827153 /* Pods-Watch_WaffleHouseSearch WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Watch_WaffleHouseSearch WatchKit Extension/Pods-Watch_WaffleHouseSearch WatchKit Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Watch_WaffleHouseSearch WatchKit Extension/Pods-Watch_WaffleHouseSearch WatchKit Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		B23DF42C678F024A667C03A759CC0574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08520EE1DDFC48E2D21E947E645B9624 /* Pods-Watch_WaffleHouseSearch.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Watch_WaffleHouseSearch/Pods-Watch_WaffleHouseSearch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Watch_WaffleHouseSearch/Pods-Watch_WaffleHouseSearch.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC25D749BA2D470CC2AB57A6903315C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3683CD5532415C80AD4699509C314982 /* YelpHelper.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YelpHelper/YelpHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YelpHelper/YelpHelper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YelpHelper/YelpHelper.modulemap";
+				PRODUCT_MODULE_NAME = YelpHelper;
+				PRODUCT_NAME = YelpHelper;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		BEB2C283B3E63E2BDF7662E47C2BC892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 364FAFBDFF3A42786388793FA95CE6DA /* Pods-Watch_WaffleHouseSearch WatchKit App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Watch_WaffleHouseSearch WatchKit App/Pods-Watch_WaffleHouseSearch WatchKit App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Watch_WaffleHouseSearch WatchKit App/Pods-Watch_WaffleHouseSearch WatchKit App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F9CE747CFDCBFA21CF4838DCAA6263 /* Build configuration list for PBXNativeTarget "Pods-Watch_WaffleHouseSearch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2363D7F401C89653C213A5A436C69E22 /* Debug */,
+				BEB2C283B3E63E2BDF7662E47C2BC892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7822537EEE947E5E6601FAEA8F266C40 /* Debug */,
+				030C440C3B849EF8AF2749C0411600B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A490BEDC38FAA3B3F4443A728E438E /* Build configuration list for PBXNativeTarget "Pods-Watch_WaffleHouseSearch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69354C4958F1C681DB36AA2BCC29C225 /* Debug */,
+				92F55FD0283B0910EDA6199A1A3C4F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF93684D2474837EDBC390C32D986344 /* Build configuration list for PBXNativeTarget "YelpHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758FECFEB698B905BE4C97DA8952B050 /* Debug */,
+				BC25D749BA2D470CC2AB57A6903315C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE18970914795B7FD12D01C6B0E17BC0 /* Build configuration list for PBXNativeTarget "Pods-Watch_WaffleHouseSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7267619BF7D9A8CFA07BD13F18A5AB2C /* Debug */,
+				B23DF42C678F024A667C03A759CC0574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

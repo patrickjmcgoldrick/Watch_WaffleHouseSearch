@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48687CB82E0A7030B7F61990 /* Pods_Watch_WaffleHouseSearch_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B0A8ED2D9FF501617F5733 /* Pods_Watch_WaffleHouseSearch_WatchKit_App.framework */; };
 		5E08479623BDB73300B2934F /* Watch_WaffleHouseSearch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5E08479523BDB73300B2934F /* Watch_WaffleHouseSearch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5E08479C23BDB73300B2934F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E08479A23BDB73300B2934F /* Interface.storyboard */; };
 		5E08479E23BDB73500B2934F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E08479D23BDB73500B2934F /* Assets.xcassets */; };
@@ -15,18 +16,13 @@
 		5E0847AC23BDB73600B2934F /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0847AB23BDB73600B2934F /* ExtensionDelegate.swift */; };
 		5E0847AE23BDB73600B2934F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0847AD23BDB73600B2934F /* NotificationController.swift */; };
 		5E0847B023BDB73700B2934F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E0847AF23BDB73700B2934F /* Assets.xcassets */; };
-		5E0847C923BDCE8800B2934F /* SearchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0847C323BDCE8800B2934F /* SearchData.swift */; };
-		5E0847CA23BDCE8800B2934F /* SearchParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0847C423BDCE8800B2934F /* SearchParser.swift */; };
-		5E0847CB23BDCE8800B2934F /* YelpSearcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0847C523BDCE8800B2934F /* YelpSearcher.swift */; };
 		5E0847CD23BDCF2300B2934F /* TableInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0847CC23BDCF2300B2934F /* TableInterfaceController.swift */; };
 		5E0847CF23BDCF3B00B2934F /* DetailInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0847CE23BDCF3B00B2934F /* DetailInterfaceController.swift */; };
 		5E0847D123BDD1D700B2934F /* YelpAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0847D023BDD1D700B2934F /* YelpAPI.swift */; };
-		5E0847D423BDD49600B2934F /* YelpURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0847D223BDD49600B2934F /* YelpURLs.swift */; };
-		5E0847D523BDD49600B2934F /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0847D323BDD49600B2934F /* NetworkController.swift */; };
 		5E0847D723BDD5F000B2934F /* WKInterfaceImage_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0847D623BDD5F000B2934F /* WKInterfaceImage_Extension.swift */; };
-		5E0847DA23BDD6DA00B2934F /* DetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0847D823BDD6D900B2934F /* DetailData.swift */; };
-		5E0847DB23BDD6DA00B2934F /* DetailParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0847D923BDD6D900B2934F /* DetailParser.swift */; };
 		5E0847DD23BE67DB00B2934F /* TableRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0847DC23BE67DB00B2934F /* TableRowCell.swift */; };
+		6D56427187869D200E1EE512 /* Pods_Watch_WaffleHouseSearch_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7D60518650929595F99A6F /* Pods_Watch_WaffleHouseSearch_WatchKit_Extension.framework */; };
+		807E2A5C1BDFAEC498201F15 /* Pods_Watch_WaffleHouseSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC67615D92ED1F7DAF5925B /* Pods_Watch_WaffleHouseSearch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +68,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		14976697BB2EB0D067D1BB6F /* Pods-Watch_WaffleHouseSearch WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watch_WaffleHouseSearch WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-Watch_WaffleHouseSearch WatchKit App/Pods-Watch_WaffleHouseSearch WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		2D336859C25DF257A1D95F97 /* Pods-Watch_WaffleHouseSearch WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watch_WaffleHouseSearch WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-Watch_WaffleHouseSearch WatchKit Extension/Pods-Watch_WaffleHouseSearch WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		3EA64A89BC5102C8D27BF8D1 /* Pods-Watch_WaffleHouseSearch WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watch_WaffleHouseSearch WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-Watch_WaffleHouseSearch WatchKit App/Pods-Watch_WaffleHouseSearch WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		3F1F5793B314FB7530612D38 /* Pods-Watch_WaffleHouseSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watch_WaffleHouseSearch.debug.xcconfig"; path = "Target Support Files/Pods-Watch_WaffleHouseSearch/Pods-Watch_WaffleHouseSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		4CC67615D92ED1F7DAF5925B /* Pods_Watch_WaffleHouseSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Watch_WaffleHouseSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B7D60518650929595F99A6F /* Pods_Watch_WaffleHouseSearch_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Watch_WaffleHouseSearch_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E08479123BDB73300B2934F /* Watch_WaffleHouseSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch_WaffleHouseSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E08479523BDB73300B2934F /* Watch_WaffleHouseSearch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Watch_WaffleHouseSearch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E08479B23BDB73300B2934F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -84,37 +86,66 @@
 		5E0847AF23BDB73700B2934F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E0847B123BDB73700B2934F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E0847B223BDB73700B2934F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		5E0847C323BDCE8800B2934F /* SearchData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchData.swift; sourceTree = "<group>"; };
-		5E0847C423BDCE8800B2934F /* SearchParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchParser.swift; sourceTree = "<group>"; };
-		5E0847C523BDCE8800B2934F /* YelpSearcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpSearcher.swift; sourceTree = "<group>"; };
 		5E0847CC23BDCF2300B2934F /* TableInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableInterfaceController.swift; sourceTree = "<group>"; };
 		5E0847CE23BDCF3B00B2934F /* DetailInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInterfaceController.swift; sourceTree = "<group>"; };
 		5E0847D023BDD1D700B2934F /* YelpAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpAPI.swift; sourceTree = "<group>"; };
-		5E0847D223BDD49600B2934F /* YelpURLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpURLs.swift; sourceTree = "<group>"; };
-		5E0847D323BDD49600B2934F /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 		5E0847D623BDD5F000B2934F /* WKInterfaceImage_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKInterfaceImage_Extension.swift; sourceTree = "<group>"; };
-		5E0847D823BDD6D900B2934F /* DetailData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailData.swift; sourceTree = "<group>"; };
-		5E0847D923BDD6D900B2934F /* DetailParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailParser.swift; sourceTree = "<group>"; };
 		5E0847DC23BE67DB00B2934F /* TableRowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableRowCell.swift; sourceTree = "<group>"; };
+		897AB7746D4510A93E5447B2 /* Pods-Watch_WaffleHouseSearch WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watch_WaffleHouseSearch WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-Watch_WaffleHouseSearch WatchKit Extension/Pods-Watch_WaffleHouseSearch WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		A8B0A8ED2D9FF501617F5733 /* Pods_Watch_WaffleHouseSearch_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Watch_WaffleHouseSearch_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3C52D02CF2BD2DD4A2A6645 /* Pods-Watch_WaffleHouseSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watch_WaffleHouseSearch.release.xcconfig"; path = "Target Support Files/Pods-Watch_WaffleHouseSearch/Pods-Watch_WaffleHouseSearch.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1F50DD6F0220624FF18E8F7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807E2A5C1BDFAEC498201F15 /* Pods_Watch_WaffleHouseSearch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5E0847A123BDB73600B2934F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D56427187869D200E1EE512 /* Pods_Watch_WaffleHouseSearch_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C133E0D329017AAF6AC72AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48687CB82E0A7030B7F61990 /* Pods_Watch_WaffleHouseSearch_WatchKit_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2EEB5EC15E91231B5E891AD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F1F5793B314FB7530612D38 /* Pods-Watch_WaffleHouseSearch.debug.xcconfig */,
+				C3C52D02CF2BD2DD4A2A6645 /* Pods-Watch_WaffleHouseSearch.release.xcconfig */,
+				3EA64A89BC5102C8D27BF8D1 /* Pods-Watch_WaffleHouseSearch WatchKit App.debug.xcconfig */,
+				14976697BB2EB0D067D1BB6F /* Pods-Watch_WaffleHouseSearch WatchKit App.release.xcconfig */,
+				2D336859C25DF257A1D95F97 /* Pods-Watch_WaffleHouseSearch WatchKit Extension.debug.xcconfig */,
+				897AB7746D4510A93E5447B2 /* Pods-Watch_WaffleHouseSearch WatchKit Extension.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5E08478A23BDB73300B2934F = {
 			isa = PBXGroup;
 			children = (
 				5E08479923BDB73300B2934F /* Watch_WaffleHouseSearch WatchKit App */,
 				5E0847A823BDB73600B2934F /* Watch_WaffleHouseSearch WatchKit Extension */,
 				5E08479223BDB73300B2934F /* Products */,
+				2EEB5EC15E91231B5E891AD3 /* Pods */,
+				F1C17D25F65E1656AD64F4AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,19 +172,12 @@
 		5E0847A823BDB73600B2934F /* Watch_WaffleHouseSearch WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				5E0847D823BDD6D900B2934F /* DetailData.swift */,
-				5E0847D923BDD6D900B2934F /* DetailParser.swift */,
 				5E0847A923BDB73600B2934F /* InterfaceController.swift */,
 				5E0847CC23BDCF2300B2934F /* TableInterfaceController.swift */,
 				5E0847DC23BE67DB00B2934F /* TableRowCell.swift */,
 				5E0847CE23BDCF3B00B2934F /* DetailInterfaceController.swift */,
 				5E0847D623BDD5F000B2934F /* WKInterfaceImage_Extension.swift */,
-				5E0847D323BDD49600B2934F /* NetworkController.swift */,
-				5E0847D223BDD49600B2934F /* YelpURLs.swift */,
 				5E0847D023BDD1D700B2934F /* YelpAPI.swift */,
-				5E0847C323BDCE8800B2934F /* SearchData.swift */,
-				5E0847C423BDCE8800B2934F /* SearchParser.swift */,
-				5E0847C523BDCE8800B2934F /* YelpSearcher.swift */,
 				5E0847AB23BDB73600B2934F /* ExtensionDelegate.swift */,
 				5E0847AD23BDB73600B2934F /* NotificationController.swift */,
 				5E0847AF23BDB73700B2934F /* Assets.xcassets */,
@@ -163,6 +187,16 @@
 			path = "Watch_WaffleHouseSearch WatchKit Extension";
 			sourceTree = "<group>";
 		};
+		F1C17D25F65E1656AD64F4AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CC67615D92ED1F7DAF5925B /* Pods_Watch_WaffleHouseSearch.framework */,
+				A8B0A8ED2D9FF501617F5733 /* Pods_Watch_WaffleHouseSearch_WatchKit_App.framework */,
+				5B7D60518650929595F99A6F /* Pods_Watch_WaffleHouseSearch_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -170,8 +204,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E0847BD23BDB73700B2934F /* Build configuration list for PBXNativeTarget "Watch_WaffleHouseSearch" */;
 			buildPhases = (
+				FD0B907401441FC959DCE8D9 /* [CP] Check Pods Manifest.lock */,
 				5E08478F23BDB73300B2934F /* Resources */,
 				5E0847BC23BDB73700B2934F /* Embed Watch Content */,
+				1F50DD6F0220624FF18E8F7C /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -187,8 +223,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E0847B923BDB73700B2934F /* Build configuration list for PBXNativeTarget "Watch_WaffleHouseSearch WatchKit App" */;
 			buildPhases = (
+				08F39DD1BB1DD7D6012973D0 /* [CP] Check Pods Manifest.lock */,
 				5E08479323BDB73300B2934F /* Resources */,
 				5E0847B823BDB73700B2934F /* Embed App Extensions */,
+				9C133E0D329017AAF6AC72AC /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -204,9 +242,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E0847B523BDB73700B2934F /* Build configuration list for PBXNativeTarget "Watch_WaffleHouseSearch WatchKit Extension" */;
 			buildPhases = (
+				C76696F77BFCAB1DB7FE8F95 /* [CP] Check Pods Manifest.lock */,
 				5E0847A023BDB73600B2934F /* Sources */,
 				5E0847A123BDB73600B2934F /* Frameworks */,
 				5E0847A223BDB73600B2934F /* Resources */,
+				6B883C2B318DAC6AB8CD0C73 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -285,24 +325,103 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08F39DD1BB1DD7D6012973D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Watch_WaffleHouseSearch WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B883C2B318DAC6AB8CD0C73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Watch_WaffleHouseSearch WatchKit Extension/Pods-Watch_WaffleHouseSearch WatchKit Extension-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Watch_WaffleHouseSearch WatchKit Extension/Pods-Watch_WaffleHouseSearch WatchKit Extension-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Watch_WaffleHouseSearch WatchKit Extension/Pods-Watch_WaffleHouseSearch WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C76696F77BFCAB1DB7FE8F95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Watch_WaffleHouseSearch WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD0B907401441FC959DCE8D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Watch_WaffleHouseSearch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5E0847A023BDB73600B2934F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E0847D423BDD49600B2934F /* YelpURLs.swift in Sources */,
 				5E0847CD23BDCF2300B2934F /* TableInterfaceController.swift in Sources */,
 				5E0847AE23BDB73600B2934F /* NotificationController.swift in Sources */,
 				5E0847D723BDD5F000B2934F /* WKInterfaceImage_Extension.swift in Sources */,
-				5E0847C923BDCE8800B2934F /* SearchData.swift in Sources */,
-				5E0847DB23BDD6DA00B2934F /* DetailParser.swift in Sources */,
 				5E0847AC23BDB73600B2934F /* ExtensionDelegate.swift in Sources */,
 				5E0847CF23BDCF3B00B2934F /* DetailInterfaceController.swift in Sources */,
-				5E0847DA23BDD6DA00B2934F /* DetailData.swift in Sources */,
-				5E0847CA23BDCE8800B2934F /* SearchParser.swift in Sources */,
 				5E0847D123BDD1D700B2934F /* YelpAPI.swift in Sources */,
-				5E0847D523BDD49600B2934F /* NetworkController.swift in Sources */,
-				5E0847CB23BDCE8800B2934F /* YelpSearcher.swift in Sources */,
 				5E0847DD23BE67DB00B2934F /* TableRowCell.swift in Sources */,
 				5E0847AA23BDB73600B2934F /* InterfaceController.swift in Sources */,
 			);
@@ -449,6 +568,7 @@
 		};
 		5E0847B623BDB73700B2934F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D336859C25DF257A1D95F97 /* Pods-Watch_WaffleHouseSearch WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +590,7 @@
 		};
 		5E0847B723BDB73700B2934F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 897AB7746D4510A93E5447B2 /* Pods-Watch_WaffleHouseSearch WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -491,6 +612,7 @@
 		};
 		5E0847BA23BDB73700B2934F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EA64A89BC5102C8D27BF8D1 /* Pods-Watch_WaffleHouseSearch WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -509,6 +631,7 @@
 		};
 		5E0847BB23BDB73700B2934F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14976697BB2EB0D067D1BB6F /* Pods-Watch_WaffleHouseSearch WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -527,6 +650,7 @@
 		};
 		5E0847BE23BDB73700B2934F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F1F5793B314FB7530612D38 /* Pods-Watch_WaffleHouseSearch.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -539,6 +663,7 @@
 		};
 		5E0847BF23BDB73700B2934F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3C52D02CF2BD2DD4A2A6645 /* Pods-Watch_WaffleHouseSearch.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

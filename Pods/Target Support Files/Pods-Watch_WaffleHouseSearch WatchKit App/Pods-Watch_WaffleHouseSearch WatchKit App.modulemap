@@ -1,0 +1,6 @@
+framework module Pods_Watch_WaffleHouseSearch_WatchKit_App {
+  umbrella header "Pods-Watch_WaffleHouseSearch WatchKit App-umbrella.h"
+
+  export *
+  module * { export * }
+}
