@@ -53,7 +53,6 @@ class TableInterfaceController: WKInterfaceController {
 
             DispatchQueue.main.async {
                 self.table.setNumberOfRows(self.businessesFound.count, withRowType: "RowCell")
-
                 
                 for index in 0..<self.businessesFound.count {
                     let business = self.businessesFound[index]

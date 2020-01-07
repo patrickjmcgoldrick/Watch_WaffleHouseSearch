@@ -11,7 +11,7 @@ import WatchKit
 
 extension WKInterfaceImage {
 
-    func downloadImageFrom(link:String) {
+    func downloadImageFrom(link: String) {
         //} contentMode: UIView.ContentMode) {
         
         if link.isEmpty {

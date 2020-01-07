@@ -13,7 +13,6 @@ import YelpHelper
 
 class MapInterfaceController: WKInterfaceController {
     
-    
     @IBOutlet weak var mkMap: WKInterfaceMap!
         
     @IBOutlet weak var lblAddress: WKInterfaceLabel!
@@ -35,7 +34,6 @@ class MapInterfaceController: WKInterfaceController {
 
         mkMap.setRegion(areaRegion)
         mkMap.addAnnotation(center, with: .red)
-
  
     }
 

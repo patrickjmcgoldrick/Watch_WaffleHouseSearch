@@ -23,5 +23,4 @@ extension Business {
         return detailString
     }
     
-    
 }

@@ -20,5 +20,4 @@ class TableRowCell: NSObject {
     
     @IBOutlet weak var lblDistance: WKInterfaceLabel!
     
-    
 }
